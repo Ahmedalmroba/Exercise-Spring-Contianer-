@@ -1,0 +1,56 @@
+  
+    1-The output fom this code 
+    hey from message1 
+   
+	 
+	 
+	  The first message is executed before the second message because the second need a parameter .
+        2-The output fom this code
+        hey from message1
+        hey from message2
+        
+        
+		  
+    
+
+     
+      The first message is  executed, followed by the third, or vice versa. The second message needs to be taken from the container, so it will be executed last.
+      
+      3-The output fom this code
+        hey from message1
+        hey from message3
+        hey from message2
+        or possible
+        hey from message3
+        hey from message1
+        hey from message2
+       
+	
+	  getMessage1 or getMessage3 will be executed because they do not contain parameters. If getMessage1 is executed, it will print the sentence inside the constructor due to the qualifier. Then, getMessage3 will be executed, and the last thing will be executed is getMessage2.
+	  
+	   4- /*The output fom this code
+        hey from message1
+        hey from main controller
+        hey from message3
+        hey from message2
+        or possible
+        hey from message3
+        hey from message2
+        hey from message1
+        hey from main controller
+		
+		The first message is  executed message3 because does not contain parameters. After that,  message2  will be executed , it will print the sentence inside the constructor due to the qualifier, and the last thing will be executed is getMessage1.
+	  
+	   4- /*The output fom this code
+        hey from message1
+        hey from main controller
+      
+	   5- The output fom this code
+	   hey from message3 
+	   hey from message2
+	   hey from main controller
+	   hey from message1
+	   
+	   
+	   
+	   
